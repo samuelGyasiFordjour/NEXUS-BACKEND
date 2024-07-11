@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #1e1e1e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #ff69b4;
+}
+
+.navbar {
+    background: #1e1e1e;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff69b4;
+    text-decoration: none;
+}
+
+.navbar .nav-links a {
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar .nav-links a:hover {
+    color: #ff69b4;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #2e2e2e;
+    color: #ffffff;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button {
+    background: #ff69b4;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+button:hover {
+    background: #ff1493;
+}
+
+footer {
+    background: #1e1e1e;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.booking {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.booking:last-child {
+    border-bottom: none;
+}
+
+.booking p {
+    margin: 5px 0;
+}
+
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#bookings-table,
+#products-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#bookings-table th,
+#products-table th,
+#bookings-table td,
+#products-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+#bookings-table th,
+#products-table th {
+    background: #2e2e2e;
+}
+
+.edit-btn,
+.delete-btn {
+    background: #ff69b4;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    background: #ff1493;
+}
